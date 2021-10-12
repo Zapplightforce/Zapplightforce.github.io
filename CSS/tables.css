@@ -1,0 +1,67 @@
+
+/* Study Table with the grades */
+
+.sty_table {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sty_td {
+    border-top-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-color: white;
+    border-width: 3px;
+    color: white;
+    padding-right: 10mm;
+    text-align: center;
+}
+.sty_th {
+    border-top-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-color: green;
+    border-width: 5px;
+    color: green;
+    font-size: 8mm;
+}
+
+/* Table Profile Page*/
+
+.prf_table {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.prf_td {
+    color: white;
+    font-weight: bold;
+    font-size: 8mm;
+    width: 100%;
+    text-align: center;
+}
+.prf_th {
+    color: green;
+    font-size: 8mm;
+    white-space: nowrap;
+}
+
+/* Table FAQ*/
+.faq_table {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.faq_td {
+    border-style: solid none none none;
+    border-color: white;
+    border-width: 5px;
+    padding-bottom: 8mm;
+}
+
+.faq_table:hover {
+    color: red;
+    border-color: red;
+}

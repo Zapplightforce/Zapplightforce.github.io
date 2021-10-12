@@ -1,0 +1,100 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: fit-content;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: black;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+    display: inline;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    background-color: black;
+    display: block;
+    padding: 50px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color: black;}
+  #News {background-color: black;}
+  #Contact {background-color: black;}
+  #About {background-color: black;}
+
+
+  /* subnav*/
+
+
+  /* The subnavigation menu */
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Subnav button */
+  .subnav .subnavbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+  }
+  
+  /* Add a red background color to navigation links on hover */
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: gray;
+  }
+  
+  /* Style the subnav content - positioned absolute */
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+    margin-top: 3%;
+    border-top: solid;
+    border-color: white;
+    border-width: 3%;
+  }
+  
+  /* Style the subnav links */
+  .btn{
+    float: left;
+    color: white;
+    text-decoration: none;
+    border-collapse: collapse;
+    border: none;
+    background-color: black;
+  }
+  
+  /* Add a grey background color on hover */
+  .subnav-content:hover {
+    color: black;
+  }
+  
+  /* When you move the mouse over the subnav container, open the subnav content */
+  .subnav:hover .subnav-content {
+    display: inline-flex;
+  }
+
+  .btn:hover {
+      background-color: gray;
+  }
+  
